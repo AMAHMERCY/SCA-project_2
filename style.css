@@ -67,6 +67,7 @@ input{
     }
     .box{
         flex-direction: column;
+        padding: 0;
     }
     h1,.info{
 
