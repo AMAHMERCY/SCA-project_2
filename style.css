@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body{
+    background-color: rgb(5, 5, 34);
+    color: white;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+}
+.container{
+    width: 100%;
+    
+}
+.info{
+    width: 170px;
+}
+
+.hero-img{
+    width: 640px;
+    max-width: 100%;
+    height: auto;
+    padding-top: 2rem;
+    display: block;
+
+}
+.user-info{
+font-size: large;
+padding-top: 1rem;
+}
+input{
+    padding-top: 0.5rem;
+}
+.user{
+    width: 230px;
+    height: 40px;
+}
+#msg{
+    width: 230px;
+    height: 80px;
+}
+.bg-primary{
+    text-decoration: none;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    /* border: 2px ridge blue; */
+    background-color: blue;
+    border-radius:10px;
+    padding:0.6rem;
+    color: white;
+    display: inline-block;
+    font-size: large;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+@media(max-width:600px){
+    body{
+        font-size: 1.5rem;
+        padding-bottom:1rem ;
+        background-color: rgb(4, 4, 44);
+        color: white;
+    }
+    .box{
+        flex-direction: column;
+    }
+    h1,.info{
+
+        width: 380px;
+    }
+    .user-info{
+        margin-left:3rem;
+    }
+}

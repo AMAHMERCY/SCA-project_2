@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>form</title>
+</head>
+<body>
+  <div class="box">
+  <div>
+        <form action="feedback.html" method="GET">
+          <div>
+            <h1> Let work together</h1>
+            <P class="info">We'd love to hear from you! Send us a message using the the form below</P>
+          </div>
+
+             <div class="user-info">
+               <label for="name">Name</label><br>
+               <input type="text" id="name" class="user"name="user_name" required>
+             </div>
+             <div class="user-info">
+               <label for="name">Lastname</label><br>
+               <input type="text" id="name"  class="user" name="user_name" required>
+             </div>
+
+             <div class="user-info">
+               <label for="mail">E-mail</label><br>
+               <input type="email" id="mail"  class="user" name="user_email" required>
+             </div>
+
+             <div class="user-info">
+                 <label for="company">Company</label><br>
+                 <input type="text" id="company"  class="user" name="user_company" required>
+             </div>
+
+             <div class="user-info">
+                <label for="phone">Phone</label><br>
+                <input type="number" id="phone"  class="user" name="user_phone" placeholder="optional">
+            </div>
+
+            <div class="user-info">
+                <label for="question">How can we help you </label><br>
+                <input type="text" id="question"  class="user" name="user_question">
+            </div>
+
+             <div class="user-info">
+               <label for="msg">Message:</label><br>
+               <textarea id="msg" name="user_message" maxlength="500" row="7" placeholder="max.500 words"required></textarea>
+           
+             </div>
+
+             <div class="user-info">
+               <p>Expected budget</p>
+              <input type="radio" id="budget1" name="budget" value="less than $25k">
+              <label for="budget1">Less than 25k</label><br>
+              <input type="radio" id="budget2" name="budget" value="$25k - $50k">
+              <label for="budget2">$25k - 50k</label><br>
+              <input type="radio" id="budget3" name="budget" value="$50k - $100k">
+              <label for="budget3">$50k - 100k</label><br>
+              <input type="radio" id="budget4" name="budget" value="$100k +">
+              <label for="budget4">$100k +</label>
+             </div>
+             <div class="user-info">
+             <label for="us">How did you hear about us</label><br>
+             <input type="text" id="us" class="user" name="about_us">
+             </div>
+             <button class="bg-primary">submit</button>
+           </form>
+  </div>
+           <div>
+            <img src="images/form1.jpg" class="hero-img">
+           </div>
+    </div>
+</body>
+</html>
