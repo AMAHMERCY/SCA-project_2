@@ -64,16 +64,24 @@ input{
         padding-bottom:1rem ;
         background-color: rgb(4, 4, 44);
         color: white;
+        /* overflow: none; */
     }
     .box{
         flex-direction: column;
         padding: 0;
     }
-    h1,.info{
-
-        width: 380px;
+    h1{
+text-align: center;
+        
+    }
+    .info{
+        margin:0 auto;
     }
     .user-info{
-        margin-left:3rem;
+        margin-left:1rem;
+    }
+    .hero-img{
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
